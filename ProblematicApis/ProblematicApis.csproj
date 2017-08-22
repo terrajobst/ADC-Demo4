@@ -5,4 +5,8 @@
     <TargetFramework>netcoreapp2.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Terrajobst.PlatformCompat.Analyzers" Version="0.0.95-alpha" />
+  </ItemGroup>
+
 </Project>
