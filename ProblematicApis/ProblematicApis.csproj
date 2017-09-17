@@ -5,6 +5,12 @@
     <TargetFramework>netcoreapp2.0</TargetFramework>
   </PropertyGroup>
 
+  <!--
+  <PropertyGroup>
+    <PlatformCompatIgnore>Linux;MacOSX</PlatformCompatIgnore>
+  </PropertyGroup>
+  -->
+
   <ItemGroup>
     <PackageReference Include="Terrajobst.PlatformCompat.Analyzers" Version="0.0.95-alpha" />
   </ItemGroup>
